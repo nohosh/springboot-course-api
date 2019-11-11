@@ -1,4 +1,4 @@
-package io.javabrains.springbootquickstart.topic;
+package javabrains.springbootstarter.topic;
 
 import org.springframework.data.repository.CrudRepository;
 
