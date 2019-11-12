@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e757639-0ba1-434e-9a7c-975c41769d5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javabrains/springbootstarter/course/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javabrains/springbootstarter/course/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javabrains/springbootstarter/course/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javabrains/springbootstarter/course/CourseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javabrains/springbootstarter/course/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javabrains/springbootstarter/course/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javabrains/springbootstarter/course/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javabrains/springbootstarter/course/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javabrains/springbootstarter/course/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javabrains/springbootstarter/course/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javabrains/springbootstarter/course/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javabrains/springbootstarter/course/CourseService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CourseApiDataApplication">
+  <component name="RunManager" selected="Application.CourseApiDataApplication (1)">
     <configuration name="CourseApiApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.javabrains.springbootquickstart.CourseApiApp" />
       <module name="course-api" />
@@ -90,6 +91,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.javabrains.springbootquickstart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseApiDataApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabrains.CourseApiDataApplication" />
+      <module name="course-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javabrains.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,9 +135,11 @@
       <item itemvalue="Application.CourseApiApp" />
       <item itemvalue="Application.CourseApiDataApplication" />
       <item itemvalue="Application.CourseApiDataApplicatio" />
+      <item itemvalue="Application.CourseApiDataApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CourseApiDataApplication (1)" />
         <item itemvalue="Application.CourseApiDataApplication" />
         <item itemvalue="Application.CourseApiDataApplicatio" />
         <item itemvalue="Application.CourseApiDataApplication" />

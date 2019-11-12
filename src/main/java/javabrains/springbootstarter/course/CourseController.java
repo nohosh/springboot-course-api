@@ -15,10 +15,8 @@ public class CourseController {
     private CourseService courseService;
 
     @RequestMapping("/topics/{id}/courses")
-    public List<Topic> getAllCourses(@PathVariable String id){
-        List<Course> courses = new ArrayList<>();
-        courseRepository.findAll();
-        return courses;
+    public List<Course> getAllCourses(@PathVariable String id){
+        return courseService.getAllCourses(id);
     }
 
     @RequestMapping("/topics/{topicId}/courses/{id}")
